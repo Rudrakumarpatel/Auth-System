@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "name": "social_media_project",
+  "name": "Auth-System",
   "builds": [
     {
-      "src": "./main.js",
+      "src": "./server.js",
       "use": "@vercel/node"
     }
   ],
