@@ -3,14 +3,14 @@
   "name": "social_media_project",
   "builds": [
     {
-      "src": "./server.js",
+      "src": "./main.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/.*",
-      "dest": "main.jsx"
+      "dest": "server.js"
     }
   ]
 }
